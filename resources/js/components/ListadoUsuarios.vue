@@ -116,7 +116,7 @@ export default {
                 from: 0,
                 to: 0
             },
-            offset: 3
+            offset: 2
         };
     },
     computed: {
@@ -128,12 +128,12 @@ export default {
                 return [];
             }
 
-            let from = this.pagination.current_page - 2;
+            let from = this.pagination.current_page - this.offset;
             if (from < 1) {
                 from = 1;
             }
 
-            let to = from + 2 * 2;
+            let to = from + this.offset * 2;
             if (to >= this.pagination.last_page) {
                 to = this.pagination.last_page;
             }

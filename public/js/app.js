@@ -2529,7 +2529,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         from: 0,
         to: 0
       },
-      offset: 3
+      offset: 2
     };
   },
   computed: {
@@ -2541,13 +2541,13 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         return [];
       }
 
-      var from = this.pagination.current_page - 2;
+      var from = this.pagination.current_page - this.offset;
 
       if (from < 1) {
         from = 1;
       }
 
-      var to = from + 2 * 2;
+      var to = from + this.offset * 2;
 
       if (to >= this.pagination.last_page) {
         to = this.pagination.last_page;
