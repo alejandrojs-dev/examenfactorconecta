@@ -7,11 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## Acerca de la aplicación
+## Acerca de la aplicación 🚀
 
 Es una API REST que se encarga de la administración de usuarios usando las operaciones básicas CRUD (Crear, Leer, Actualizar y Borrar)
 
-## Descarga del proyecto
+## Descarga del proyecto 🔧
 
 Para descargar el proyecto se debe ejecutar el siguiente comando de git:
 
@@ -19,7 +19,7 @@ Para descargar el proyecto se debe ejecutar el siguiente comando de git:
 git clone https://github.com/alejandrojs-dev/examenfactorconecta.git
 ```
 
-## Dependencias Laravel
+## Instalación de dependencias Laravel 🔧
 
 Una vez descargado el proyecto, procedemos a descargar las dependencias de composer con el comando;
 
@@ -27,12 +27,12 @@ Una vez descargado el proyecto, procedemos a descargar las dependencias de compo
 composer install
 ```
 
-## Archivo .env
+## Archivo .env ⚙️
 
 Por cuestion de seguridad el archivo .env no se encuentra en el repositorio pero se puede generar un archivo .env nuevo
 y copiar el contenido que se encuentra en el archivo .env.example para tener accesso a los datos de conexión de la base de datos y la aplicación
 
-## Migraciones y Seeders
+## Migraciones y Seeders ⚙️
 
 Una vez creada la base de datos en base a la variable de entorno del archivo .env, se deben correr las migraciones existentes. Para esto utilizamos el comando:
 
@@ -64,7 +64,7 @@ En caso de que se necesiten eliminar las tablas y volver a crearlas se puede uti
 php artisan migrate:fresh
 ```
 
-## Iniciar aplicación Laravel
+## Iniciar aplicación Laravel ⚙️
 
 Posterior a los pasos anteriores, iniciamos la aplicación laravel ejecutando el comando:
 
@@ -72,7 +72,7 @@ Posterior a los pasos anteriores, iniciamos la aplicación laravel ejecutando el
 php artisan serve
 ```
 
-## Dependencias Vue
+## Instalación de dependencias Vue 🔧
 
 Para descargar las dependencias utilizadas en la aplicación cliente se debe ejecutar el comando:
 
@@ -80,10 +80,20 @@ Para descargar las dependencias utilizadas en la aplicación cliente se debe eje
 npm install
 ```
 
-## Iniciar aplicación Vue
+## Iniciar aplicación Vue ⚙️
 
 Posterior a la descarga de las dependencias ejecutamos el siguiente comando para iniciar la aplicación Vue:
 
 ```
 npm run dev
 ```
+
+## Aplicación construida en 🛠️
+
+* [VueJs](https://vuejs.org/) - Framework frontend usado para las interfaces de usuario
+* [Laravel](https://laravel.com/) - Framework backend usado para la lógica de la aplicación
+* [NPM](https://www.npmjs.com/) - Manejador de dependencias
+
+## Autores ✒️
+
+* **Israel Alejandro Loera Pérez** - *Desarrollo de la aplicación* - [alejandrojs-dev](https://github.com/alejandrojs-dev)
